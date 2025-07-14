@@ -10,18 +10,19 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: row;
 
 }
 
-.card{
+.card {
 
-    min-height: 70vmin ;
+    min-height: 60vmin ;
     width: 50vmin;
     background: linear-gradient(to bottom right, #0de8d2, #5c46b6);
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-wrap: wrap;
     
     
@@ -54,8 +55,8 @@ body{
 }
 
 .search-icon{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     background-color: aliceblue;
     border-radius: 50%;
     display: flex;
@@ -74,7 +75,13 @@ body{
 .trans{
     background-color: transparent;
 }
-
-img,h1,h2,p {
+h1,h2,p {
+    background-color: transparent;
+    
+}
+img{
+    height: 50px;
+    width: 50px;
     background-color: transparent;
 }
+
